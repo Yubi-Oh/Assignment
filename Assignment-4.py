@@ -67,11 +67,7 @@ zzzz thank you ㅋ
 ... 
 >>> print(addNumber(100))
 5050
->>> #8 매개변수 기본값을 2개 설정하는 코드
->>> def myFunc(p1, p2=2, p3=2) :
-...     ret = p1+p2+p3
-...     return ret
-... 
+
 >>> #8 매개변수 기본값을 2개 설정하는 코드(수정 및 답)
 >>> def myFunc(p1=2, p2=2, p3=2) :
 ...     ret = p1+p2+p3
